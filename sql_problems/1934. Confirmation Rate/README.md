@@ -1,8 +1,3 @@
-Got it — you want the **README** to include a **table where each line of your SQL query is shown in one column and its explanation in another**, so it’s visually easy to follow.
-
-Here’s the updated `README.md` content with the **example table** you’re asking for:
-
----
 
 ```markdown
 # 1934. Confirmation Rate
