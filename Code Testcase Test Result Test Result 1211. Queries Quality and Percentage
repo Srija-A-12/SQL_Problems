@@ -1,0 +1,9 @@
+select   q.query_name, round(sum(rating /position)/count(*),2) as quality,
+round((
+    select count(*)
+    from Queries q2
+    where q2.query_name=q.query_name and rating <3
+
+)*100 / count(*),2) as poor_query_percentage 
+from Queries q
+group by query_name 
