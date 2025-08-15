@@ -1,4 +1,4 @@
-# Employees with Low Salary and Missing Manager (explained like you’re 10)
+# Employees with Low Salary and Missing Manager
 
 ## The query
 
